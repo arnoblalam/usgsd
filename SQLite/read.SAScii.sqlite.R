@@ -108,7 +108,7 @@ read.SAScii.sqlite <-
 	
 	# fields <- y$varname
 
-	# colTypes <- ifelse( !y[ , 'char' ] , 'BLOB' , 'VARCHAR(255)' )
+	# colTypes <- ifelse( !y[ , 'char' ] , 'BLOB' , 'BLOB' )
 	
 
 	# colDecl <- paste( fields , colTypes )
